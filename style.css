@@ -89,7 +89,7 @@ header nav ul {
     width: 80px;
     height: 80px;
     content: '';
-    background-image:url('images/leaves.png');
+    background-image:url('leaves.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
