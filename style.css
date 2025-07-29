@@ -9,7 +9,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 50px;
-    color: #fff;
+    color: #ffffff;
     box-sizing: border-box;
     position: relative;
     z-index: 10;
@@ -63,7 +63,21 @@ header nav ul {
     width: 90%;
     filter: drop-shadow(0 0 20px #000000);
 }
+/*new*/
+.slider .list .caption {
+    color: #fff;
+    margin-top: 10px;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    text-shadow: 0 0 5px #000;
+    transform: rotate(-45deg);
+    transition: transform 1s;
+}
 
+.slider .list .item.active .caption {
+    transform: rotate(0deg);
+}
+/*new*/
 .slider .content {
     position: absolute;
     bottom: 5%;
