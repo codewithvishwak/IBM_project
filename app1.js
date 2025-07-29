@@ -16,39 +16,39 @@ closeShopping.addEventListener('click', () => {
 let products = [
     {
         id: 1,
-        name: 'PRODUCT NAME 1',
+        name: 'Caesar Salad',
         image: 'D1.PNG',
-        price: 450
+        price: 2500
     },
     {
         id: 2,
-        name: 'PRODUCT NAME 2',
+        name: 'Murgh Tandoori',
         image: 'D2.PNG',
-        price: 500
+        price: 1500
     },
     {
         id: 3,
-        name: 'PRODUCT NAME 3',
+        name: 'Salmon Salad',
         image: 'D3.PNG',
-        price: 528
+        price: 4000
     },
     {
         id: 4,
-        name: 'PRODUCT NAME 4',
+        name: 'Pumpkin Soup',
         image: 'D4.PNG',
-        price: 246
+        price: 1700
     },
     {
         id: 5,
-        name: 'PRODUCT NAME 5',
+        name: 'Maxican Salad',
         image: 'D5.PNG',
-        price: 320
+        price: 3000
     },
     {
         id: 6,
-        name: 'PRODUCT NAME 6',
+        name: 'Margherita Pizza',
         image: 'D6.PNG',
-        price: 1200
+        price: 2600
     }
 ];
 
